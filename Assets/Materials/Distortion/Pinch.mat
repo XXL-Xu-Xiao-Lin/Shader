@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Pinch
+  m_Shader: {fileID: 4800000, guid: 030a06f220c4bdf4c848c0a1cb2f0356, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 05f17b8a3a023f94bb385b209d38b13d, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: AspectRatio
+        second: 1
+      data:
+        first:
+          name: CenterPointX
+        second: .5
+      data:
+        first:
+          name: CenterPointY
+        second: .5
+      data:
+        first:
+          name: Radius
+        second: .5
+      data:
+        first:
+          name: Strength
+        second: 1.35000002
+    m_Colors: {}

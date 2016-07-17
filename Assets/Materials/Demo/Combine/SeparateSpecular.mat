@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: SeparateSpecular
+  m_Shader: {fileID: 4800000, guid: a3215a823ebb8764ea98f6bb54d5d3e1, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 13a8cca93c9a06b49a1414239d7012ab, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BlendTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 2ecbe1f88cbbc1449ba26235bbe56e89, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BlandTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 2ecbe1f88cbbc1449ba26235bbe56e89, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Shininess
+        second: .00999999978
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: .352941155, g: .352941155, b: .352941155, a: 1}
+      data:
+        first:
+          name: _Emission
+        second: {r: .369245946, g: .343209356, b: .507352948, a: 0}
+      data:
+        first:
+          name: _Specular
+        second: {r: .496435255, g: .459829152, b: .772058845, a: 1}
+      data:
+        first:
+          name: _IlluminCol
+        second: {r: .117241383, g: 0, b: 1, a: 1}
+      data:
+        first:
+          name: _BaseColor
+        second: {r: 1, g: 1, b: 1, a: 1}

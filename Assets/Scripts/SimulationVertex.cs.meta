@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 6c263a04bf5bf6a4c9f8fae8690d5dea
+timeCreated: 1428658820
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - ElementBlue: {fileID: 119024, guid: 7965a5e9c58c1154cb69c980bf6f36c6, type: 2}
+  - ElementRed: {fileID: 106328, guid: 974b0157eb43c4945be4df2f935c38a4, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,63 @@
+Shader "K/Glass/Temp/GlassShaderTemplate" {
+    Properties {
+		
+	}
+    SubShader {
+ 
+        Tags { "Queue" = "Transparent" }
+ 
+        GrabPass { 
+			Name "" 
+			Tags { "LightMode" = "Always" }
+		}
+ 
+        Pass {
+			Name ""
+			Tags { "LightMode" = "Always" }
+ 
+			CGPROGRAM
+			#pragma vertex vert
+			#pragma fragment frag 
+			#pragma target 3.0
+ 
+			sampler2D _GrabTexture : register(s0);
+			
+
+			struct data {
+				float4 vertex : POSITION;
+			};
+ 
+
+			struct v2f {
+				float4 position : POSITION;
+				float4 screenPos : TEXCOORD0;
+			};
+ 
+ 
+			v2f vert(data i){
+				v2f o;
+				o.position = mul(UNITY_MATRIX_MVP, i.vertex);
+				o.screenPos = o.position;
+				return o;
+			}
+ 
+ 
+			half4 frag( v2f i ) : COLOR
+			{
+ 
+				float2 screenPos = i.screenPos.xy / i.screenPos.w;
+				screenPos.x = (screenPos.x + 1) * 0.5;
+				screenPos.y = 1-(screenPos.y + 1) * 0.5;
+				
+				half4 c = 0;
+
+				
+
+				return c;
+			}
+		ENDCG
+        }
+    }
+ 
+	Fallback Off
+}
